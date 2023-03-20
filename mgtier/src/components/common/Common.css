@@ -1,0 +1,11 @@
+.commonheader{
+    background-color: #0D4B78;
+    color: white;
+    height: 100px;
+    padding: 5px 20px;
+}
+
+.bigword{
+    font-weight: bolder;
+    font-size: 50px;
+}

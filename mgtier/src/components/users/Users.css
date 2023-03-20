@@ -1,0 +1,40 @@
+.userstab{
+    display: flex;
+    gap: 20px;
+    margin-left: 40px;
+    border-bottom: solid 1px #0d4b78;
+}
+
+.adduser{
+    background-color:rgba(0, 0, 20, 0.5);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.user{
+    background-color: white; 
+    padding: 30px;
+    width: 60%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #0D4B78;
+    position: fixed;
+    top: 10%;
+    left: 10%;
+    transform: translate(35%, 20%) ;
+
+}
+
+.user label{
+    margin-right: 10px;
+    padding: 10px;
+   
+}
+
+select{
+    padding: 10px;
+    border: #46B5D1 1px solid;
+    border-radius: 10px;
+    background-color: white;
+}

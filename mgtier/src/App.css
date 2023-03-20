@@ -1,0 +1,93 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: #EFF3F6;
+  color: #0D4B78;
+}
+a{
+  text-decoration: none;
+  color: #0D4B78;
+  
+}
+
+.login, .signup{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.loginForm{
+  width: 30%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffff;
+  padding-bottom: 30px;
+  gap: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+
+}
+.loginForm input{
+  background-color: #EFF3F6;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  width: 80%;
+}
+.loginForm img{
+  width: 100%;
+  height: 200px;
+  border-radius: 20px 20px 0 0;
+}
+.logina{
+  background-color: #46B5D1;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+}
+.loginForm button{
+  outline: none;
+  background-color: #46B5D1;
+  border: none;
+  padding: 15px;
+  width: 40%;
+  border-radius: 10px;
+}
+.titlesection{
+  height: 80px;
+  color: navy;
+  width: 100%;
+}
+.userbtn{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+.userbtn button{
+  background-color: #46B5D1;
+  border: none;
+  padding: 10px;
+
+}
+.userbtn input{
+  border: none;
+  background-color: #EFF3F6;
+  padding: 10px;
+}
+
+
+input{
+    background-color: #EFF3F6;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: #46B5D1 1px solid;
+}
