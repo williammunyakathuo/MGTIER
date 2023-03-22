@@ -3,7 +3,6 @@ import { salesdata } from '../../dummy';
 // import { productsData } from '../../dummy';
 import { customersData } from '../../dummy';
 import { useState, useEffect } from 'react';
-import Makesale from './MakeSale';
 
 const AllSales = () => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -29,12 +28,8 @@ const AllSales = () => {
           <button onClick={() => setShowModule(true)}>Show Module</button>
 
         </div>
-        <div className="salestable">
-
-          
-        </div>
+        <div className="salestable"></div>
       </div>
-      {showModule && <Makesale />}
     </div>
   );
 }

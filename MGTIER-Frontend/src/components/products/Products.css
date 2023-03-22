@@ -1,0 +1,24 @@
+.addproducts{
+    background-color:rgba(0, 0, 20, 0.5);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+option{
+    padding: 10px;
+    border-bottom: 1px solid #46B5D1;
+}
+.ViewProducts{
+    display: flex;
+    justify-content: center;
+}
+.products{
+    width: 90%;
+    margin: 20px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #0D4B78;
+}

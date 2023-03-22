@@ -1,0 +1,29 @@
+.account{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+
+.profile {
+    background-color: white;
+    box-shadow: 5px 5px 5px #0d4b78;
+    width: 90%;
+    border-radius: 20px;
+    margin: 30px;
+    padding: 30px;
+}
+
+/* .names{
+    width: 100%;
+} */
+.names div{
+    display: flex;
+    align-items: center;
+    border-bottom: #EFF3F6 1px solid;
+}
+.names p{
+    padding: 5px;
+    color: rgb(71, 71, 71);
+    font-size: smaller;
+    width: 200px;
+}
